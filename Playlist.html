@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FirstPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="play-list.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <title>Playlist</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="top-1">
+                <div class="icon">
+                    <img src="Images/Navbar/main-icon.png" class="main-icon" alt="icon" height="80rem" width="80rem"
+                        style="border-radius: 50%;">
+                    <p id="f-text">Music</p>
+                    <p id="s-text">Studio</p>
+                </div>
+                <div class="underline Favourites">Favourites</div>
+            </div>
+            <div class="top-2">
+                <div class="input-main jagah">
+                    <i class="fa fa-search" id="sec-ico" style="color: aliceblue;"></i>
+                    <input type="text" class="input-nav" placeholder="Search Your Music">
+                    <i class="fa fa-microphone " id="sec-ico" style="color: aliceblue;"></i>
+                </div>
+
+                <div>
+                    <i class="fa fa-bell jagah" id="ico" style="font-size:24px ;color: aliceblue;"></i>
+                </div>
+                <div><img src="Images/Navbar/profile-pic.jpg" alt="" class="main-icon" width="60vh" height="60vh"
+                        class="jagah" style="border-radius: 50%;"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="bottom-navigation">
+        <div><img src="Images/Navbar/massomiyat.jpg" alt="" width="50px"></div>
+        <div class="bottom-detail">
+            <p>Masoomiyat</p>
+            <span>Satinder Sartaaz</span>
+        </div>
+        <audio src="Images/Songs/Masoomiat.mp3" id="mymusicsongplay"></audio>
+        <div class="bottom-playbutton">
+            <i class="fa fa-arrows-alt" style="font-size:18px"></i>
+            <i class="fa fa-step-backward" style="font-size:18px"></i>
+            <i class="fa fa-play-circle-o" id="play-song-main" style="font-size:24px;"></i>
+            <i class="fa fa-step-forward" style="font-size:18px"></i>
+            <i class="fa fa-refresh" style="font-size:18px"></i>
+        </div>
+        <div class="bottom-slider">
+            <span>1:36</span>
+            <input type="range" min="0" max="100" value="30" class="slider" id="myRange">
+            <span>5:55</span>
+        </div>
+        <div class="bottom-last"><i class='fa fa-bars' style='font-size:20px;margin-right: 15px;'
+                id="bottom-bars-hamburger"></i><i class='fa fa-volume-up' style='font-size:20px'></i><input type="range"
+                min="0" max="100" value="80" class="slider2" id="myRange"></div>
+    </div>
+    <main class="plrmain">
+        <aside class="plraside-1">
+            <div class="plr-list-info">
+                <img src="Images/Latest Release/willow.jpeg" alt="">
+                <div class="main-info-plr">
+                    <h1>ColdPlay</h1>
+                    <p>British Band<br>Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm
+                        guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and
+                        drummer Will Champion met at University College London and began playing music together from
+                        1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their
+                        name to Coldplay</p>
+                    <button>Play All</button>
+                    <a href="#">Follow</a>
+                </div>
+            </div>
+            <div class="scroll-list-plr">
+                    <div class="scroll-list-plr-elm">
+                        <div style="display: flex; align-items: center;"><p>01</p><img src="Images/Playlist/after.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                        <div><p id="plr-hide-pl">3:14</p></div>
+                        <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                    </div>
+                    <div class="scroll-list-plr-elm">
+                        <div style="display: flex; align-items: center;"><p>02</p><img src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                        <div><p id="plr-hide-pl">3:14</p></div>
+                        <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                    </div><div class="scroll-list-plr-elm">
+                        <div style="display: flex; align-items: center;"><p>03</p><img src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg"alt=""><div class="soong-details-plr"><h3>White</h3><p>Post Malone</p></div></div>
+                        <div><p id="plr-hide-pl">3:14</p></div>
+                        <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                    </div>
+                    <div class="scroll-list-plr-elm">
+                     <div style="display: flex; align-items: center;"><p>04</p><img src="Images/Playlist/beer.jpg"alt=""><div class="soong-details-plr"><h3>GoFlex</h3><p>Post Malone</p></div></div>
+                     <div><p id="plr-hide-pl">3:14</p></div>
+                     <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                    </div>
+                    <div class="scroll-list-plr-elm">
+                     <div style="display: flex; align-items: center;"><p>05</p><img src="Images/Playlist/stoney.jpg"alt=""><div class="soong-details-plr"><h3>Better</h3><p>Post Malone</p></div></div>
+                     <div><p id="plr-hide-pl">3:14</p></div>
+                     <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                    </div>
+                    <div class="scroll-list-plr-elm">
+                        <div style="display: flex; align-items: center;"><p>06</p><img src="Images/Playlist/stoney.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                        <div><p id="plr-hide-pl">3:14</p></div>
+                        <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                   </div>
+                   <div class="scroll-list-plr-elm">
+                    <div style="display: flex; align-items: center;"><p>07</p><img src="Images/Playlist/after.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                    <div><p id="plr-hide-pl">3:14</p></div>
+                    <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                </div>
+                <div class="scroll-list-plr-elm">
+                    <div style="display: flex; align-items: center;"><p>08</p><img src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                    <div><p id="plr-hide-pl">3:14</p></div>
+                    <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                </div><div class="scroll-list-plr-elm">
+                    <div style="display: flex; align-items: center;"><p>09</p><img src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg"alt=""><div class="soong-details-plr"><h3>White</h3><p>Post Malone</p></div></div>
+                    <div><p id="plr-hide-pl">3:14</p></div>
+                    <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                </div>
+                <div class="scroll-list-plr-elm">
+                 <div style="display: flex; align-items: center;"><p>10</p><img src="Images/Playlist/beer.jpg"alt=""><div class="soong-details-plr"><h3>GoFlex</h3><p>Post Malone</p></div></div>
+                 <div><p id="plr-hide-pl">3:14</p></div>
+                 <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                </div>
+                <div class="scroll-list-plr-elm">
+                 <div style="display: flex; align-items: center;"><p>11</p><img src="Images/Playlist/stoney.jpg"alt=""><div class="soong-details-plr"><h3>Better</h3><p>Post Malone</p></div></div>
+                    <div><p id="plr-hide-pl">3:14</p></div>
+                 <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                </div>
+                <div class="scroll-list-plr-elm">
+                    <div style="display: flex; align-items: center;"><p>12</p><img src="Images/Playlist/stoney.jpg"alt=""><div class="soong-details-plr"><h3>Alone</h3><p>Alan Walker</p></div></div>
+                    <div><p id="plr-hide-pl">3:14</p></div>
+                    <div style="display: flex; align-items: center;"><i class="fa fa-heart" style="font-size:24px"></i><p style="font-size: 35px; margin-left: 5px;">+</p></div>
+                   </div>
+            </div>
+        </aside>
+        <aside class="plraside-2">
+            <div class="similar-artist-plr-1">
+                <div class="heading-plr-sa1" style="display: flex; justify-content: space-between; margin-top: -20px;">
+                    <h1>Similar Artist</h1>
+                <p>View</p>
+                </div>
+                <div class="content-plr-sa1" id="Scroll-plr-js">
+                    <div style="display: flex;  justify-content: space-between; align-items: center;"><img src="Images/popular artists/drake.jpg" alt=""><div class="text-plr"><h3>Love me</h3><p>Drake</p></div><span>02:14</span></div>
+                    <div style="display: flex; margin-top: 20px; justify-content: space-between; align-items: center;"><img src="Images/popular artists/ed sheeran.jpg" alt=""><div class="text-plr"><h3>Gotti</h3><p>Ed sheeran</p></div><span>04:32</span></div>
+                    <div style="display: flex; margin-top: 20px; justify-content: space-between; align-items: center;"><img src="Images/popular artists/bruno mars.jpg" alt=""><div class="text-plr"><h3>WAP</h3><p>Bruno Mars</p></div><span>03:53</span></div>
+                </div>
+                
+            </div>
+            <div class="Recently-played-plr-1" >
+                <div class="heading-plr-rp1" style="display: flex; justify-content: space-between; margin-top: -20px;">
+                    <h1>Recently played</h1>
+                <p>View</p>
+                </div>
+                <div class="content-plr-sa1" id="Scroll-plr-js" >
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;" class="fa fa-heart" style="font-size:24px"></i></div>
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;"class="fa fa-heart" style="font-size:24px"></i></div>
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;" class="fa fa-heart" style="font-size:24px"></i></div>
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;" class="fa fa-heart" style="font-size:24px"></i></div>
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;" class="fa fa-heart" style="font-size:24px"></i></div>
+                    <div class="recently-played-plr-content" style="margin-top: 10px; display: flex; justify-content: space-between; align-items: center;"><img src="Images/Playlist/after.jpg" alt=""> <div><h3>Alone </h3> <p>Alan walker</p></div> <i style="padding-right: 20px;" class="fa fa-heart" style="font-size:24px"></i></div>
+                </div>
+            </div>
+         
+        </aside>
+    </main>
+</body>
+<script>
+    var my_song = document.getElementById('mymusicsongplay');
+    var play_song = document.getElementById('play-song-main');
+    let Song_count = 0;
+    play_song.addEventListener('click' , ()=>{
+        Song_count++;
+        if(Song_count%2==0)
+        {
+        my_song.pause();
+        play_song.className="fa fa-play-circle-o";
+        }
+        else {
+        my_song.play();
+        play_song.className="fa fa-pause-circle-o";
+        }
+    }); 
+    
+</script>
+</html>

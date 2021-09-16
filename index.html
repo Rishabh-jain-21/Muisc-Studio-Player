@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FirstPage.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="top-1">
+                <div class="icon">
+                    <img src="Images/Navbar/main-icon.png" class="main-icon" alt="icon" height="80rem" width="80rem"
+                        style="border-radius: 50%;">
+                    <p id="f-text">Music</p>
+                    <p id="s-text">Studio</p>
+                </div>
+                <div class="underline Favourites">Favourites</div>
+            </div>
+            <div class="top-2">
+                <div class="input-main jagah">
+                    <i class="fa fa-search" id="sec-ico" style="color: aliceblue;"></i>
+                    <input type="text" class="input-nav" placeholder="Search Your Music">
+                    <i class="fa fa-microphone " id="sec-ico" style="color: aliceblue;"></i>
+                </div>
+
+                <div>
+                    <i class="fa fa-bell jagah" id="ico" style="font-size:24px ;color: aliceblue;"></i>
+                </div>
+                <div><img src="Images/Navbar/profile-pic.jpg" alt="" class="main-icon" width="60vh" height="60vh"
+                        class="jagah" style="border-radius: 50%;"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="bottom-navigation">
+        <div><img src="Images/Navbar/massomiyat.jpg" alt="" width="50px"></div>
+        <div class="bottom-detail">
+            <p>Masoomiyat</p>
+            <span>Satinder Sartaaz</span>
+        </div>
+        <audio src="Images/Songs/Masoomiat.mp3" id="mymusicsongplay"></audio>
+        <div class="bottom-playbutton">
+            <i class="fa fa-arrows-alt" style="font-size:18px"></i>
+            <i class="fa fa-step-backward" style="font-size:18px"></i>
+            <i class="fa fa-play-circle-o" id="play-song-main" style="font-size:24px;"></i>
+            <i class="fa fa-step-forward" style="font-size:18px"></i>
+            <i class="fa fa-refresh" style="font-size:18px"></i>
+        </div>
+        <div class="bottom-slider">
+            <span>1:36</span>
+            <input type="range" min="0" max="100" value="30" class="slider" id="myRange">
+            <span>5:55</span>
+        </div>
+        <div class="bottom-last"><i class='fa fa-bars' style='font-size:20px;margin-right: 15px;'
+                id="bottom-bars-hamburger"></i><i class='fa fa-volume-up' style='font-size:20px'></i><input type="range"
+                min="0" max="100" value="80" class="slider2" id="myRange"></div>
+    </div>
+    <main>
+        <div class="mid">   
+            <div class="side-bar left-carousel">
+                <div class="first-content ">
+                    <div class="carousel">
+                        <img class="carousel-1" src="Images/Carousel/Ncarousel2.jpg" alt="">
+                        <img class="carousel-2" src="Images/Carousel/Ncarousel1.jpg" alt="">
+                        <img class="carousel-3" src="Images/Carousel/carousel3.jpg" alt="">
+                    </div>
+                    <div class="container-2">
+                        <h2>Latest Release</h2>
+                        <div class="container2-flex">
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/willow.jpeg" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>Willow</h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">3:35</p>
+                                </div>
+                            </div>
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/DaBaby.jpg" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>Rockstar</h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">3:20</p>
+                                </div>
+                            </div>
+
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/dynamite.jpg" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>Dynamite</h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">3:00</p>
+                                </div>
+                            </div>
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/shit.png" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>WAP</h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">4:44</p>
+                                </div>
+                            </div>
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/falling.jpg" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>Falling</h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">2:39</p>
+                                </div>
+                            </div>
+                            <div class="Lastest-release">
+                                <img src="Images/Latest Release/Weeknd.jpg" alt="">
+                                <div class="lr-nameDate">
+                                    <h3>Blinding </h3>
+                                    <span class="lr-date">Dec , 2020</span>
+                                </div>
+                                <div class="lr-timer-special">
+                                    <i class="fa fa-ellipsis-v" id="open-pl-playlist"
+                                        style="font-size:24px; transform: rotate(90deg); color:aliceblue;"></i>
+                                    <p class="lr-time">3:15</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-3">
+                            <h2 style="color: aliceblue;">Popular Artist</h2>
+                            <div class="container3-flex">
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/adele.jpg" alt="">
+                                    <p>Adele</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/billie eilish.jpg" alt="">
+                                    <p>billie eilish</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/bruno mars.jpg" alt="">
+                                    <p>bruno mars</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/Camila Cabello.jpg" alt="">
+                                    <p>Camila </p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/drake.jpg" alt="">
+                                    <p>drake</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/ed sheeran.jpg" alt="">
+                                    <p>ed sheeran</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/eminem.jpg" alt="">
+                                    <p>eminem</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/Katy perry.jpg" alt="">
+                                    <p>Katy perry</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/nicki minaj.jpg" alt="">
+                                    <p>nicki minaj</p>
+                                </div>
+                                <div class="content-container3"><i class="fa fa-play"
+                                        style="font-size:24px ;color:aliceblue;"></i><img
+                                        src="Images/popular artists/posty.png" alt="">
+                                    <p>posty</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container-4">
+                            <div class="whole-station-icon">
+                                <div class="station-icon-1"></div>
+                                <div class="station-icon-2"></div>
+                                <div class="station-icon-3"><i class="fa fa-play-circle-o"></i>
+                                    <h1>Stations</h1>
+                                </div>
+                            </div>
+                            <div class="container-4-2ndpart">
+                                <div><img src="Images/Stations/love.jfif" alt=""><span>Love</span></div>
+                                <div><img src="Images/Stations/Rock.jfif" alt=""><span>Rock</span></div>
+                                <div><img src="Images/Stations/pop.jfif" alt=""><span>POP</span></div>
+                                <div><img src="Images/Stations/vibe.jpg" alt=""><span>Vibe</span></div>
+                                <div><img src="Images/Stations/relax.jpg" alt=""><span>Relax</span></div>
+                                <div><img src="Images/Stations/Workout.jpg" alt=""><span id="img_tag21">Workout</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-5">
+                            <div>
+                                <h1>Electric</h1>
+                                <img src="Images/music themes 2/electronic.jpg" alt="">
+                            </div>
+                            <div>
+                                <h1>Party</h1>
+                                <img src="Images/music themes 2/party.jpg" alt="">
+                            </div>
+                            <div>
+                                <h1>Travel</h1>
+                                <img src="Images/music themes 2/road.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="container-6">
+                            <h1>Lastest English</h1>
+                            <div class="latest-english">
+                                <div>
+                                    <img src="Images/latest english/I'll Wait.jpg" alt="">
+                                    <span>I'll Wait</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div>
+                                <div>
+                                    <img src="Images/latest english/ily.jpg" alt="">
+                                    <span>ily</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest english/qurantine clean.jpg" alt="">
+                                    <span>Qurantine</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest english/roar.jpg" alt="">
+                                    <span>Roar</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest english/uptown funk.png" alt="">
+                                    <span>Uptown funk</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-6" style="padding-top:100px ;">
+                            <h1>Lastest Hindi</h1>
+                            <div class="latest-english">
+                                <div>
+                                    <img src="Images/latest hindi/baarish.jpeg" alt="">
+                                    <span>Baarish</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div>
+                                <div>
+                                    <img src="Images/latest hindi/galiyaan.jpg" alt="">
+                                    <span>Galiyaan</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest hindi/giveme some sunshine.jpg" alt="">
+                                    <span>Sunshine</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest hindi/kaun tujhe.jpg" alt="">
+                                    <span>Kaun tujhe</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div><div>
+                                    <img src="Images/latest hindi/tera ban jaunga.jpg" alt="">
+                                    <span>Tera Ban</span>
+                                    <p>Aug 13 , 2017</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-content side-bar">
+                <h1 style="margin-left: 18px; font-size: 27px;">Queue</h1>
+                <p class="drop-down " id="drop_downn2" style="color: rgb(86 255 0);"><a
+                        style="color:rgb(127, 224, 16); text-decoration:none;">Queue</a> &nbsp; <i
+                        class="fa fa-caret-down"></i></p>
+                <div id="queue2">
+                    <ul style="list-style: none;">
+                        <li style="font-weight: 600;" id="play-list-main">playlist</li><br>
+                        <li style="font-weight: 600;">Favourite song</li><br>
+                        <li id="c_queue" style="color: red; font-weight: 600;">Close</li>
+                    </ul>
+                </div>
+                <div class="play-list"><span class="count">01</span><img src="Images/Playlist/after.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Alone Again</p>
+                        <p class="list-text2">Weekend</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">02</span><img
+                        src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Alone Again</p>
+                        <p class="list-text2">Alon Walker</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">03</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Whitw Iverson</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">04</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Go Flex</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">05</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Better Now</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">06</span><img src="Images/Playlist/after.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Hardest To Love</p>
+                        <p class="list-text2">Weekend</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">07</span><img src="Images/Playlist/after.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Alone Again</p>
+                        <p class="list-text2">Weekend</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">08</span><img
+                        src="Images/Playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Alone Again</p>
+                        <p class="list-text2">Alon Walker</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">09</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Whitw Iverson</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">10</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Go Flex</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">11</span><img src="Images/Playlist/stoney.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Better Now</p>
+                        <p class="list-text2">Post Malone</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="play-list"><span class="count">12</span><img src="Images/Playlist/after.jpg" alt="">
+                    <div>
+                        <p class="list-text1">Hardest To Love</p>
+                        <p class="list-text2">Weekend</p><i class="fa fa-heart-o" style="font-size:24px"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    var my_song = document.getElementById('mymusicsongplay');
+    var play_song = document.getElementById('play-song-main');
+    var plist2 = document.getElementById('open-pl-playlist');
+    var plist = document.getElementById('play-list-main');
+    var que = document.getElementById('drop_downn2');
+    var show_que = document.getElementById('queue2');
+    var close_queue = document.getElementById('c_queue');
+    var que_count = 0;
+    que.addEventListener('click', () => {
+        que_count++;
+        if (que_count % 2 == 0)
+            show_que.style.display = "none";
+        else
+            show_que.style.display = "block";
+    });
+    close_queue.addEventListener('click', () => {
+        show_que.style.display = "none";
+    });
+    plist.addEventListener('click',function(){
+        console.log('playlist is opened');
+        window.open('Playlist.html');
+    });
+    plist2.addEventListener('click',function(){
+        console.log('playlist is opened');
+        window.open('Playlist.html');
+    });
+    let Song_count = 0;
+    play_song.addEventListener('click' , ()=>{
+        Song_count++;
+        if(Song_count%2==0)
+        {
+        my_song.pause();
+        play_song.className="fa fa-play-circle-o";
+        }
+        else {
+        my_song.play();
+        play_song.className="fa fa-pause-circle-o";
+        }
+    }); 
+</script>
+
+</html>
